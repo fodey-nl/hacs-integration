@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Set up the Fodey integration to track your GPS devices within Home assistant.",
+        "data": {
+          "name": "[%key:common::config_flow::data::name%]",
+          "api_url": "[%key:common::config_flow::data::api_url%]",
+          "api_token": "[%key:common::config_flow::data::api_token%]"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "abort": {
+      "already_configured_device": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}

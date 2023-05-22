@@ -1,0 +1,18 @@
+{
+  "domain": "fodey",
+  "name": "Fodey GPS",
+  "config_flow": true,
+  "version": "v0.0.1",
+  "documentation": "https://www.home-assistant.io/integrations/fodey",
+  "requirements": [
+    "pyfodey@https://gitlab.liacmedia.nl/api/v4/projects/51/packages/pypi"
+  ],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@fodey"
+  ],
+  "iot_class": "cloud_polling"
+}
