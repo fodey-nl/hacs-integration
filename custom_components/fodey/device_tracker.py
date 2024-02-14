@@ -1,4 +1,4 @@
-from homeassistant.components.device_tracker import SOURCE_TYPE_GPS
+from homeassistant.components.device_tracker import SourceType
 from homeassistant.components.device_tracker.config_entry import TrackerEntity
 import logging
 from homeassistant.exceptions import ConfigEntryAuthFailed
@@ -120,4 +120,4 @@ class FodeyDeviceEntity(CoordinatorEntity, TrackerEntity):
     @property
     def source_type(self):
         """Return the source type, eg gps or router, of the device."""
-        return SOURCE_TYPE_GPS
+        return SourceType.GPS
